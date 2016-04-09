@@ -12,8 +12,9 @@ public class gcd {
      }
 }
 
-/**欧几里得算法，找到两个数的最大公约数
-   定理：gcd(a,b) = gcd(b,a mod b) 
+/**
+欧几里得算法，找到两个数的最大公约数
+定理：gcd(a,b) = gcd(b,a mod b) 
 证明：a可以表示成a = kb + r，则r = a mod b 
       假设d是a,b的一个公约数，则有 
       d|a, d|b，而r = a - kb，因此d|r 
@@ -24,4 +25,4 @@ public class gcd {
       因此d也是(a,b)的公约数 
 
       因此(a,b)和(b,a mod b)的公约数是一样的，其最大公约数也必然相等，
-      */
+*/
